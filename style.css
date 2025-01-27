@@ -1,76 +1,4 @@
-
-/* 通用样式 */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff; /* 白色背景 */
-    color: #000000; /* 黑色字体 */
-    line-height: 1.6;
-}
-
-header {
-    background: #f8f9fa;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2rem;
-    color: #333;
-}
-
-header nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-header nav a {
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-header nav a:hover {
-    text-decoration: underline;
-}
-
-main {
-    padding: 20px;
-    max-width: 900px;
-    margin: auto;
-}
-
-section {
-    margin-bottom: 50px;
-}
-
-.card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-    background: #f8f9fa;
-    text-align: center;
-    padding: 15px;
-    border-top: 1px solid #ddd;
-}
-
-footer p {
-    margin: 0;
-    color: #666;
-}
-
-/* 社交链接 */
+/* 社交链接样式 */
 .social-links {
     display: flex;
     justify-content: center;
@@ -84,7 +12,7 @@ footer p {
     font-size: 1.2rem;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     border: 1px solid #ddd;
     padding: 10px 15px;
     border-radius: 8px;
@@ -96,10 +24,6 @@ footer p {
     color: #fff;
 }
 
-.social-links .twitter i {
-    color: #1da1f2;
-}
-
-.social-links .telegram i {
-    color: #0088cc;
-}
+.social-links img.logo {
+    width: 24px;
+    height
