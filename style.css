@@ -1,79 +1,32 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
+header {
+    background: #3498db; /* 更清新的蓝色 */
+    color: white;
+    padding: 20px 0;
 }
 
-.navbar {
-  background: #333;
-  color: #fff;
-  padding: 1rem 0;
-}
-
-.navbar .logo {
-  font-size: 1.5rem;
-}
-
-.navbar .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-
-.navbar .nav-links a {
-  color: #fff;
-  text-decoration: none;
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 #hero {
-  background: linear-gradient(to right, #0066cc, #003366);
-  color: #fff;
-  text-align: center;
-  padding: 3rem 1rem;
-}
-
-#hero .btn {
-  background: #ff5722;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 1rem;
-  display: inline-block;
-}
-
-.section {
-  padding: 2rem 1rem;
-}
-
-.card-container {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.card {
-  flex: 1 1 calc(50% - 1rem);
-  background: #f4f4f4;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #2ecc71; /* 明亮绿色 */
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
 }
 
 footer {
-  text-align: center;
-  padding: 1rem;
-  background: #333;
-  color: #fff;
+    background: #34495e; /* 深蓝色 */
+    color: white;
+    padding: 20px;
 }
+
